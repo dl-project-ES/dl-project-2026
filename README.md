@@ -77,36 +77,6 @@ Standard classification accuracy is insufficient for open-set evaluation. The fo
 
 ---
 
-## Project Structure
-
-.
-├── data_loader/
-│   ├── sigmf_loader.py
-│   └── preprocess.py
-│
-├── models/
-│   ├── cnn_encoder.py
-│   └── classifier.py
-│
-├── open_set/
-│   ├── unknown_detection.py
-│   └── clustering.py
-│
-├── evaluation/
-│   ├── metrics.py
-│   └── visualization.py
-│
-├── experiments/
-│   ├── run_baseline.py
-│   └── run_open_set.py
-│
-├── configs/
-│   └── experiment.yaml
-│
-├── README.md
-└── .gitignore
-
----
 
 ## Team Contribution Model
 
